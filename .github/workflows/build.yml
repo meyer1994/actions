@@ -13,5 +13,5 @@ jobs:
         with:
           python-version: '3.9'
       - run: pip install -r requirements.txt
-      - run: python -m unittest -vb tests.py
+      - run: python -m unittest -vb test.py
 
